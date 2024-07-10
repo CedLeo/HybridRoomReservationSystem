@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/HybridRoomReservation/static/css/main.c55756fc.css",
+    "main.js": "/HybridRoomReservation/static/js/main.f878ed47.js",
+    "index.html": "/HybridRoomReservation/index.html",
+    "main.c55756fc.css.map": "/HybridRoomReservation/static/css/main.c55756fc.css.map",
+    "main.f878ed47.js.map": "/HybridRoomReservation/static/js/main.f878ed47.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c55756fc.css",
+    "static/js/main.f878ed47.js"
+  ]
+}

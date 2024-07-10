@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", "sans-serif";
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fill;
+    background: #141414;
+    overflow-x: hidden;
+    overflow-y: none;
+}
+
+
+
+.reserveContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 50%;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    background-image: url(https://lh3.googleusercontent.com/p/AF1QipNRBjeJ3fWhQN9WLKvaBfBljEux7ivH9AlBkTKL=w600-k);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+}
+
+.reserveForm{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 100%;
+    background-color: #424242;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 1px 15px 5px rgba(0,0,0,0.34); 
+    box-shadow: 5px 1px 15px 5px rgba(0,0,0,0.34);
+    
+}
+
+.formRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    gap: 14px;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 1px 16px 0px rgba(0,0,0,0.34); 
+    box-shadow: 5px 1px 16px 0px rgba(0,0,0,0.34);
+
+}
+
+.reservationTitle{
+    font-family: "Vollkorn", serif;
+    padding-top: -5px;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+}
+
+.forms h3{
+    padding-bottom: 3px;
+    width: 87%;
+    color: #1f1f1f;
+    font-family: "Poppins", "sans-serif";
+    font-weight: 400;
+}
+
+.forms input{
+    width: 85%;
+    height: 34px;
+    border-radius: 7px;
+    border: none;
+    background-color: #c2c2c2;
+    font-family: "Poppins", "sans-serif";
+    padding-left: 5px;
+    padding-right: 5px;
+    -webkit-box-shadow: 1px 1px 16px 0px rgba(0,0,0,0.25); 
+    box-shadow: 1px 1px 16px 0px rgba(0,0,0,0.25);
+}
+
+.forms input:focus{
+    outline: none;
+}
+
+.forms input:active{
+    outline: none;
+}
+
+.formLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    gap: 10px;
+    border-radius: 10px;
+    
+}
+
+.formLeft h3{
+    text-align: center;
+    font-weight: 600;
+    color: #f0f0f0;
+
+}
+
+.timeForms{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.formDate input{
+    height: 150px;
+}
+
+.formTimeIn input, .formTimeOut input{
+    width: 80%;
+    height: 100px;
+}
+
+.formDate{
+    width: 50%;
+}
+
+.reserveBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    height: 60%;
+    background-color: #363636;
+    color: #fff;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: all 0.3s;
+    border: none;
+    background-color: #1f1f1f;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(161,161,161,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(161,161,161,0);
+    letter-spacing: 3px;
+    font-size: 18px;
+}
+
+.reserveBtn:hover{
+    background-color: white;
+    color: #141414;
+    transform: translateY(-10px);
+}
+
+.formReserve{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.checkBtn{
+    width: auto;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    background-color: none;
+    text-align: center;
+    font-family: "Vollkorn", serif;
+    color: #c2c2c2;
+    font-size: 15px;
+}
+
+.checkBtn:hover{
+    color: #cfcfcf;
+    text-decoration: underline;
+}
+
+.roomReserve{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+
+}
+
+.roomDesc{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.roomDesc h1{
+    font-family: "Poppins", "sans-serif";
+    color: rgb(17, 17, 17);
+    font-weight: 700;
+    margin-left: 10px;
+
+}
+
+.roomDesc p{
+    font-family: "Poppins", sans-serif;;
+    color: rgb(15, 15, 15);
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+
+.changeRoom{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.changeRoom h2{
+    font-size: 18px;
+    padding: 10px;
+    height: 25px;
+    font-family: "Mako", sans-serif;
+    font-weight: 300;
+    color: #363636;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.scheduleWrapper{
+    width: 100%;
+    height: 90%;
+    background-color: beige;
+}
+
+.formDataContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .formDataColumn {
+    flex: 1;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .formDataColumn h3 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .formDataColumn p {
+    font-size: 20px;
+    margin: 5px 0;
+  }
+
+  .facultyData{
+    flex: 1.5;
+    margin-left: 20px;;
+  }
+
+  .facultyEmail{
+    flex: 1.5;
+  }
+
+  .changeBtn{
+    border: none;
+    width: 150px;
+    height: 60px;
+    margin: 20px;
+    border-radius: 20px;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.goBackBtn{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.go-back {
+    color: #cfcfcf;
+    font-family: "Poppins", "sans serif";
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 1;
+    padding-left: 15px;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    text-decoration: none;
+  }
+
+
+  .go-back::before,
+  .go-back::after {
+    content: "";
+    display: block;
+    left: -10px;
+    position: absolute;
+    top: 50%;
+    transition: left 0.1s;
+  }
+  .go-back::before {
+    border-color: #cfcfcf;
+    border-style: solid;
+    border-width: 0 0 5px 5px;
+    height: 13px;
+    margin-top: -7px;
+    margin-left: -70px;
+    width: 13px;
+  
+    transform: rotate( 45deg );
+    -webkit-transform: rotate( 45deg );
+  }
+  .go-back::after {
+    background: #cfcfcf;
+    height: 3px;
+    width: 80px;
+    margin-left: -70px;
+  }
+  .go-back:hover::before,
+  .go-back:hover::after{
+    left: -26px;
+  }
+
+  .go-back:hover{
+    color: #2b2b2b;
+  }
